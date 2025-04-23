@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/WEB-INF/template.xhtml"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+    xmlns:h="http://xmlns.jcp.org/jsf/html"
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="content">
+        <h:outputText value="Mostrando #{movieFacadeREST.countREST()} películas 
+                                   en #{theaterFacadeREST.countREST()} cines!" 
+                     style="display:block; margin-bottom:5px;" />
+
+        <h:form>
+            <h1 style="margin-top:0;">
+                <h:outputText value="Lista de películas disponibles" />
+            </h1>
+
+            <p:dataTable value="#{movieFacadeREST.findAll()}" var="item"
+                         paginator="true" rows="5"
+                         emptyMessage="No hay películas disponibles">
+                <p:column headerText="ID">
+                    <h:outputText value="#{item.id}" />
+                </p:column>
+                <p:column headerText="Nombre">
+                    <h:outputText value="#{item.name}" />
+                </p:column>
+                <p:column headerText="Actores">
+                    <h:outputText value="#{item.actors}" />
+                </p:column>
+            </p:dataTable>
+        </h:form>
+    </ui:define>
+</ui:composition>
