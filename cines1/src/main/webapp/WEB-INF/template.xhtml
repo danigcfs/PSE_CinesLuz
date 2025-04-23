@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+  <h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Ajusta si tus CSS tienen nombres o rutas diferentes -->
+    <link href="#{facesContext.externalContext.requestContextPath}/resources/css/default.css"
+          rel="stylesheet" type="text/css" />
+    <link href="#{facesContext.externalContext.requestContextPath}/resources/css/cssLayout.css"
+          rel="stylesheet" type="text/css" />
+    <title>Cines Luz de Castilla</title>
+  </h:head>
+
+  <h:body>
+    <!-- Layout principal a página completa -->
+    <p:layout fullPage="true">
+
+      <!-- Cabecera (north) con título -->
+      <p:layoutUnit position="north" size="70"
+                    resizable="false" closable="false" collapsible="false">
+        <h2>
+          <h:outputText value="Aplicación Empresarial Cines Luz de Castilla - Segovia" />
+        </h2>
+      </p:layoutUnit>
+
+      <!-- Menú lateral (west) -->
+      <p:layoutUnit position="west" size="200" header="Menú"
+              resizable="false" closable="false" collapsible="true">
+    <h:form>
+        <p:menu><p:menuitem value="Inicio" outcome="/index.xhtml" icon="ui-icon-home" />
+        <p:menuitem value="Booking" action="booking" icon="ui-icon-cart" />
+        <p:menuitem value="Chat"
+                    url="#{facesContext.externalContext.requestContextPath}/faces/chat/chatroom.xhtml"
+                    icon="ui-icon-comment" />
+        <p:menuitem value="Películas"
+                    url="#{facesContext.externalContext.requestContextPath}/faces/client/movies.xhtml"
+                    icon="ui-icon-video" /></p:menu>
+    </h:form>
+</p:layoutUnit>
+
+
+      <!-- Contenido central (center) -->
+      <p:layoutUnit position="center" header="Contenido principal"
+                    resizable="false" closable="false" collapsible="false">
+        <ui:insert name="content">
+          <!-- Texto por defecto si la página hija no define 'content' -->
+          <h:outputText value="Contenido por defecto" />
+        </ui:insert>
+      </p:layoutUnit>
+
+    </p:layout>
+  </h:body>
+</html>
