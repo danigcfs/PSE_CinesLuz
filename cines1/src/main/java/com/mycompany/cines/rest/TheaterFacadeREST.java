@@ -29,7 +29,7 @@ import javax.inject.Named;
 @Stateless
 @Named
 @Path("com.mycompany.cines.entities.theater")
-public class TheaterFacadeREST extends AbstractFacade<Theater>  {
+public class TheaterFacadeREST extends AbstractFacade<Theater> {
 
     @PersistenceContext(unitName = "com.mycompany_cines_war_1.0-SNAPSHOTPU")
     private EntityManager em;

@@ -1,15 +1,20 @@
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\entities\Sales.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\entities\Points.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\rest\TimeslotFacadeREST.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\entities\Movie.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\rest\SalesFacadeREST.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\entities\Theater.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\rest\TheaterFacadeREST.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\rest\ApplicationConfig.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\rest\MovieFacadeREST.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\rest\AbstractFacade.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\entities\ShowTiming.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\rest\ShowTimingFacadeREST.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\booking\Booking.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\entities\Timeslot.java
-C:\Users\DGC\OneDrive\Escritorio\uni\tercero\Segundo Cuatri\PSE\cines\cines\src\main\java\com\mycompany\cines\rest\PointsFacadeREST.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\json\MovieWriter.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\rest\AbstractFacade.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\rest\TheaterFacadeREST.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\rest\PointsFacadeREST.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\entities\ShowTiming.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\rest\TimeslotFacadeREST.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\json\MovieReader.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\rest\ApplicationConfig.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\booking\Booking.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\chat\ChatServer.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\client\MovieBackingBean.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\client\MovieClientBean.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\entities\Theater.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\entities\Timeslot.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\rest\MovieFacadeREST.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\rest\SalesFacadeREST.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\entities\Points.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\rest\ShowTimingFacadeREST.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\entities\Sales.java
+C:\Users\2004p\OneDrive\Documentos\NetBeansProjects\cines\src\main\java\com\mycompany\cines\entities\Movie.java

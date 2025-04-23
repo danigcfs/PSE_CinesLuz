@@ -12,6 +12,8 @@ import javax.persistence.PersistenceContext;
 import com.mycompany.cines.entities.Movie;
 import com.mycompany.cines.entities.ShowTiming;
 
+
+
 @Named
 @FlowScoped("booking")
 public class Booking implements Serializable {
